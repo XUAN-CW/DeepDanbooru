@@ -2,6 +2,7 @@ import os
 
 import deepdanbooru as dd
 
+print(dd)
 
 def evaluate_project(project_path, target_path, threshold):
     if not os.path.exists(target_path):
